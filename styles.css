@@ -1,0 +1,31 @@
+body {
+    margin: 80px auto;
+    text-align: center;
+}
+
+span {
+    padding: 15px;
+    margin: 10px 10px;
+    background-color: rgb(247, 158, 244);
+    color: mistyrose;
+    border: 1px solid rgba(164, 99, 207, 0.925);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+button {
+    padding: 15px;
+    margin: 10px 10px;
+    background-color: rgb(212, 184, 245);
+    color: rgb(83, 14, 112);
+    border: 1px solid rgba(114, 73, 141, 0.925);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rebeccapurple;
+    color: white;
+}
