@@ -31,6 +31,7 @@ var Counter = React.createClass({
 
     shouldComponentUpdate: function() {
         console.log('shouldComponentUpdate: Metoda jest wywoływana tuż przed wywołaniem metody render i pozwala sprawdzić czy faktycznie trzeba jeszcze raz przerysować komponent. Zwracana jest tutaj wartość true/false. Metodę tę możemy zastosować, kiedy bardzo zależy nam na optymalizacji naszej aplikacji')
+        return true;
     },
 
     componentWillUpdate: function() {
